@@ -1,0 +1,57 @@
+form {
+  margin: 20px 0;
+}
+
+h1 {
+  text-align: center;
+  color: darkblue;
+}
+
+label {
+  font-size: 16px;
+}
+
+#first label,
+#first select {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+#second label,
+#second label {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+button[type="button"] {
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+}
+
+/* Style for picture library */
+#library {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.picture {
+  margin: 10px;
+  background-color: #ffff;
+  width: 400px;
+  text-align: center;
+}
+
+.picture img {
+  width: 94%;
+  height: 94%;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  /* padding: auto; */
+  margin-top: 8px;
+}
+body {
+  background-color: #efefef;
+}
